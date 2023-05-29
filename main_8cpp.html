@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação Escultor 3D: Referência do Arquivo Escultor 3D 1.0 - Arthur e Cesar/main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação Escultor 3D<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_e53dacb4f669feb098309ade763c471c.html">Escultor 3D 1.0 - Arthur e Cesar</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="_sculptor_8h_source.html">Sculptor.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">    9</span>          {</div>
+<div class="line"><span class="lineno">   10</span>  <span class="keywordtype">int</span> d=100;</div>
+<div class="line"><span class="lineno">   11</span>  <a class="code hl_class" href="class_sculptor.html">Sculptor</a> Projeto(d,d,d);</div>
+<div class="line"><span class="lineno">   12</span> </div>
+<div class="line"><span class="lineno">   14</span> </div>
+<div class="line"><span class="lineno">   15</span>  Projeto.setColor(0.439, 0.341, 0.137, 0.78); <span class="comment">//Marrom claro</span></div>
+<div class="line"><span class="lineno">   16</span>  Projeto.putEllipsoid(40, 50, 50, 20, 20, 1);</div>
+<div class="line"><span class="lineno">   17</span>  Projeto.putEllipsoid(40, 50, 49, 20, 20, 1);</div>
+<div class="line"><span class="lineno">   18</span>  Projeto.putEllipsoid(40, 50, 48, 20, 20, 1);</div>
+<div class="line"><span class="lineno">   19</span>  Projeto.putEllipsoid(40, 50, 47, 20, 20, 1);</div>
+<div class="line"><span class="lineno">   20</span>  Projeto.putEllipsoid(40, 50, 46, 21, 21, 1);</div>
+<div class="line"><span class="lineno">   21</span>  Projeto.putEllipsoid(40, 50, 45, 22, 22, 1);</div>
+<div class="line"><span class="lineno">   22</span>  Projeto.putEllipsoid(40, 50, 44, 23, 23, 1);</div>
+<div class="line"><span class="lineno">   23</span>  Projeto.putEllipsoid(40, 50, 43, 24, 24, 1);</div>
+<div class="line"><span class="lineno">   24</span>  Projeto.putEllipsoid(40, 50, 42, 25, 25, 1);</div>
+<div class="line"><span class="lineno">   25</span>  Projeto.putEllipsoid(40, 50, 41, 26, 26, 1);</div>
+<div class="line"><span class="lineno">   26</span>  Projeto.putEllipsoid(40, 50, 40, 27, 27, 1);</div>
+<div class="line"><span class="lineno">   27</span>  Projeto.putEllipsoid(40, 50, 39, 28, 28, 1);</div>
+<div class="line"><span class="lineno">   28</span>  Projeto.putEllipsoid(40, 50, 38, 29, 29, 1);</div>
+<div class="line"><span class="lineno">   29</span>  Projeto.putEllipsoid(40, 50, 37, 30, 30, 1);</div>
+<div class="line"><span class="lineno">   30</span>  Projeto.putEllipsoid(40, 50, 36, 31, 31, 1);</div>
+<div class="line"><span class="lineno">   31</span>  Projeto.putEllipsoid(40, 50, 35, 32, 32, 1);</div>
+<div class="line"><span class="lineno">   32</span>  Projeto.putEllipsoid(40, 50, 34, 33, 33, 1);</div>
+<div class="line"><span class="lineno">   33</span>  Projeto.putEllipsoid(40, 50, 33, 34, 34, 1);</div>
+<div class="line"><span class="lineno">   34</span>  Projeto.putEllipsoid(40, 50, 32, 35, 35, 1);</div>
+<div class="line"><span class="lineno">   35</span>  Projeto.putEllipsoid(40, 50, 31, 34, 34, 1);</div>
+<div class="line"><span class="lineno">   36</span>  Projeto.putEllipsoid(40, 50, 30, 33, 33, 1);</div>
+<div class="line"><span class="lineno">   37</span>  Projeto.putEllipsoid(40, 50, 29, 32, 32, 1);</div>
+<div class="line"><span class="lineno">   38</span>  Projeto.putEllipsoid(40, 50, 28, 31, 31, 1);</div>
+<div class="line"><span class="lineno">   39</span>  Projeto.putEllipsoid(40, 50, 27, 30, 30, 1);</div>
+<div class="line"><span class="lineno">   40</span>  Projeto.putEllipsoid(40, 50, 26, 29, 29, 1);</div>
+<div class="line"><span class="lineno">   41</span>  Projeto.putEllipsoid(40, 50, 25, 28, 28, 1);</div>
+<div class="line"><span class="lineno">   42</span>  Projeto.putEllipsoid(40, 50, 24, 27, 27, 1);</div>
+<div class="line"><span class="lineno">   43</span>  Projeto.putEllipsoid(40, 50, 23, 26, 26, 1);</div>
+<div class="line"><span class="lineno">   44</span>  Projeto.putEllipsoid(40, 50, 22, 25, 25, 1);</div>
+<div class="line"><span class="lineno">   45</span>  Projeto.putEllipsoid(40, 50, 21, 24, 24, 1);</div>
+<div class="line"><span class="lineno">   46</span>  Projeto.putEllipsoid(40, 50, 20, 23, 23, 1);</div>
+<div class="line"><span class="lineno">   47</span>  Projeto.putEllipsoid(40, 50, 19, 22, 22, 1);</div>
+<div class="line"><span class="lineno">   48</span>  Projeto.putEllipsoid(40, 50, 18, 21, 21, 1);</div>
+<div class="line"><span class="lineno">   49</span>  Projeto.putEllipsoid(40, 50, 17, 20, 20, 1);</div>
+<div class="line"><span class="lineno">   50</span>  Projeto.putEllipsoid(40, 50, 16, 19, 19, 1);</div>
+<div class="line"><span class="lineno">   51</span>  Projeto.putEllipsoid(40, 50, 15, 18, 18, 1);</div>
+<div class="line"><span class="lineno">   52</span>  Projeto.putEllipsoid(40, 50, 14, 17, 17, 1);</div>
+<div class="line"><span class="lineno">   53</span>  Projeto.putEllipsoid(40, 50, 13, 16, 16, 1);</div>
+<div class="line"><span class="lineno">   54</span>  Projeto.putEllipsoid(40, 50, 12, 15, 15, 1);</div>
+<div class="line"><span class="lineno">   55</span>  Projeto.putEllipsoid(40, 50, 11, 14, 14, 1);</div>
+<div class="line"><span class="lineno">   56</span>  Projeto.putEllipsoid(40, 50, 10, 13, 13, 1);</div>
+<div class="line"><span class="lineno">   57</span>  Projeto.putEllipsoid(40, 50, 9, 12, 12, 1);</div>
+<div class="line"><span class="lineno">   58</span>  Projeto.putEllipsoid(40, 50, 8, 11, 11, 1);</div>
+<div class="line"><span class="lineno">   59</span>  Projeto.putEllipsoid(40, 50, 7, 10, 10, 1);</div>
+<div class="line"><span class="lineno">   60</span>  Projeto.putEllipsoid(40, 50, 6, 9, 9, 1);</div>
+<div class="line"><span class="lineno">   61</span>  Projeto.putEllipsoid(40, 50, 5, 8, 8, 1);</div>
+<div class="line"><span class="lineno">   62</span>  Projeto.setColor(0.450, 0.450, 0.450, 0.78); <span class="comment">//Cinza</span></div>
+<div class="line"><span class="lineno">   63</span>  Projeto.putVoxel(40, 50, 4);</div>
+<div class="line"><span class="lineno">   64</span>  Projeto.putVoxel(40, 50, 3);</div>
+<div class="line"><span class="lineno">   65</span>  Projeto.putVoxel(40, 50, 2);</div>
+<div class="line"><span class="lineno">   66</span>  Projeto.putVoxel(40, 50, 1);</div>
+<div class="line"><span class="lineno">   67</span>  Projeto.putVoxel(40, 50, 0);</div>
+<div class="line"><span class="lineno">   68</span>  Projeto.cutVoxel(40, 50, 51);</div>
+<div class="line"><span class="lineno">   69</span>  </div>
+<div class="line"><span class="lineno">   71</span>  Projeto.setColor(0.439, 0.341, 0.137, 0.78); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">   72</span>  Projeto.putEllipsoid(40, 50, 50, 19, 19, 1);</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>  <span class="comment">//Linha 1</span></div>
+<div class="line"><span class="lineno">   75</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">   76</span>  Projeto.putVoxel(31, 39, 50);</div>
+<div class="line"><span class="lineno">   77</span>  Projeto.putVoxel(32, 39, 50);</div>
+<div class="line"><span class="lineno">   78</span>  Projeto.putVoxel(33, 39, 50);</div>
+<div class="line"><span class="lineno">   79</span>  Projeto.putVoxel(34, 39, 50);</div>
+<div class="line"><span class="lineno">   80</span>  Projeto.putVoxel(35, 39, 50);</div>
+<div class="line"><span class="lineno">   81</span>  Projeto.putVoxel(36, 39, 50);</div>
+<div class="line"><span class="lineno">   82</span>  Projeto.putVoxel(37, 39, 50);</div>
+<div class="line"><span class="lineno">   83</span>  Projeto.putVoxel(38, 39, 50);</div>
+<div class="line"><span class="lineno">   84</span>  Projeto.putVoxel(42, 39, 50);</div>
+<div class="line"><span class="lineno">   85</span>  Projeto.putVoxel(43, 39, 50);</div>
+<div class="line"><span class="lineno">   86</span>  Projeto.putVoxel(44, 39, 50);</div>
+<div class="line"><span class="lineno">   87</span>  Projeto.putVoxel(45, 39, 50);</div>
+<div class="line"><span class="lineno">   88</span>  Projeto.putVoxel(46, 39, 50);</div>
+<div class="line"><span class="lineno">   89</span>  Projeto.putVoxel(47, 39, 50);</div>
+<div class="line"><span class="lineno">   90</span>  Projeto.putVoxel(48, 39, 50);</div>
+<div class="line"><span class="lineno">   91</span>  Projeto.putVoxel(49, 39, 50);</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>  <span class="comment">//Linha 2</span></div>
+<div class="line"><span class="lineno">   94</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">   95</span>  Projeto.putVoxel(31, 40, 50);</div>
+<div class="line"><span class="lineno">   96</span>  Projeto.putVoxel(38, 40, 50);</div>
+<div class="line"><span class="lineno">   97</span>  Projeto.putVoxel(39, 40, 50);</div>
+<div class="line"><span class="lineno">   98</span>  Projeto.putVoxel(40, 40, 50);</div>
+<div class="line"><span class="lineno">   99</span>  Projeto.putVoxel(41, 40, 50);</div>
+<div class="line"><span class="lineno">  100</span>  Projeto.putVoxel(42, 40, 50);</div>
+<div class="line"><span class="lineno">  101</span>  Projeto.putVoxel(49, 40, 50);</div>
+<div class="line"><span class="lineno">  102</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  103</span>  Projeto.putVoxel(32, 40, 50);</div>
+<div class="line"><span class="lineno">  104</span>  Projeto.putVoxel(33, 40, 50);</div>
+<div class="line"><span class="lineno">  105</span>  Projeto.putVoxel(34, 40, 50);</div>
+<div class="line"><span class="lineno">  106</span>  Projeto.putVoxel(35, 40, 50);</div>
+<div class="line"><span class="lineno">  107</span>  Projeto.putVoxel(36, 40, 50);</div>
+<div class="line"><span class="lineno">  108</span>  Projeto.putVoxel(37, 40, 50);</div>
+<div class="line"><span class="lineno">  109</span>  Projeto.putVoxel(43, 40, 50);</div>
+<div class="line"><span class="lineno">  110</span>  Projeto.putVoxel(44, 40, 50);</div>
+<div class="line"><span class="lineno">  111</span>  Projeto.putVoxel(45, 40, 50);</div>
+<div class="line"><span class="lineno">  112</span>  Projeto.putVoxel(46, 40, 50);</div>
+<div class="line"><span class="lineno">  113</span>  Projeto.putVoxel(47, 40, 50);</div>
+<div class="line"><span class="lineno">  114</span>  Projeto.putVoxel(48, 40, 50);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>  <span class="comment">//Linha 3</span></div>
+<div class="line"><span class="lineno">  117</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  118</span>  Projeto.putVoxel(32, 41, 50);</div>
+<div class="line"><span class="lineno">  119</span>  Projeto.putVoxel(48, 41, 50);</div>
+<div class="line"><span class="lineno">  120</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  121</span>  Projeto.putVoxel(38, 41, 50);</div>
+<div class="line"><span class="lineno">  122</span>  Projeto.putVoxel(39, 41, 50);</div>
+<div class="line"><span class="lineno">  123</span>  Projeto.putVoxel(40, 41, 50);</div>
+<div class="line"><span class="lineno">  124</span>  Projeto.putVoxel(41, 41, 50);</div>
+<div class="line"><span class="lineno">  125</span>  Projeto.putVoxel(42, 41, 50);</div>
+<div class="line"><span class="lineno">  126</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  127</span>  Projeto.putVoxel(33, 41, 50);</div>
+<div class="line"><span class="lineno">  128</span>  Projeto.putVoxel(34, 41, 50);</div>
+<div class="line"><span class="lineno">  129</span>  Projeto.putVoxel(35, 41, 50);</div>
+<div class="line"><span class="lineno">  130</span>  Projeto.putVoxel(36, 41, 50);</div>
+<div class="line"><span class="lineno">  131</span>  Projeto.putVoxel(37, 41, 50);</div>
+<div class="line"><span class="lineno">  132</span>  Projeto.putVoxel(43, 41, 50);</div>
+<div class="line"><span class="lineno">  133</span>  Projeto.putVoxel(44, 41, 50);</div>
+<div class="line"><span class="lineno">  134</span>  Projeto.putVoxel(45, 41, 50);</div>
+<div class="line"><span class="lineno">  135</span>  Projeto.putVoxel(46, 41, 50);</div>
+<div class="line"><span class="lineno">  136</span>  Projeto.putVoxel(47, 41, 50);</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>  <span class="comment">//Linha 4</span></div>
+<div class="line"><span class="lineno">  139</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  140</span>  Projeto.putVoxel(33, 42, 50);</div>
+<div class="line"><span class="lineno">  141</span>  Projeto.putVoxel(34, 42, 50);</div>
+<div class="line"><span class="lineno">  142</span>  Projeto.putVoxel(46, 42, 50);</div>
+<div class="line"><span class="lineno">  143</span>  Projeto.putVoxel(47, 42, 50);</div>
+<div class="line"><span class="lineno">  144</span>  Projeto.setColor(0.694, 0.509, 0.164, 1); <span class="comment">//Marrom</span></div>
+<div class="line"><span class="lineno">  145</span>  Projeto.putVoxel(35, 42, 50);</div>
+<div class="line"><span class="lineno">  146</span>  Projeto.putVoxel(36, 42, 50);</div>
+<div class="line"><span class="lineno">  147</span>  Projeto.putVoxel(37, 42, 50);</div>
+<div class="line"><span class="lineno">  148</span>  Projeto.putVoxel(43, 42, 50);</div>
+<div class="line"><span class="lineno">  149</span>  Projeto.putVoxel(44, 42, 50);</div>
+<div class="line"><span class="lineno">  150</span>  Projeto.putVoxel(45, 42, 50);</div>
+<div class="line"><span class="lineno">  151</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  152</span>  Projeto.putVoxel(38, 42, 50);</div>
+<div class="line"><span class="lineno">  153</span>  Projeto.putVoxel(42, 42, 50);</div>
+<div class="line"><span class="lineno">  154</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  155</span>  Projeto.putVoxel(39, 42, 50);</div>
+<div class="line"><span class="lineno">  156</span>  Projeto.putVoxel(40, 42, 50);</div>
+<div class="line"><span class="lineno">  157</span>  Projeto.putVoxel(41, 42, 50);</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>  <span class="comment">//Linha 5</span></div>
+<div class="line"><span class="lineno">  160</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  161</span>  Projeto.putVoxel(35, 43, 50);</div>
+<div class="line"><span class="lineno">  162</span>  Projeto.putVoxel(45, 43, 50);</div>
+<div class="line"><span class="lineno">  163</span>  Projeto.setColor(0.694, 0.509, 0.164, 1); <span class="comment">//Marrom</span></div>
+<div class="line"><span class="lineno">  164</span>  Projeto.putVoxel(36, 43, 50);</div>
+<div class="line"><span class="lineno">  165</span>  Projeto.putVoxel(37, 43, 50);</div>
+<div class="line"><span class="lineno">  166</span>  Projeto.putVoxel(43, 43, 50);</div>
+<div class="line"><span class="lineno">  167</span>  Projeto.putVoxel(44, 43, 50);</div>
+<div class="line"><span class="lineno">  168</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  169</span>  Projeto.putVoxel(38, 43, 50);</div>
+<div class="line"><span class="lineno">  170</span>  Projeto.putVoxel(42, 43, 50);</div>
+<div class="line"><span class="lineno">  171</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  172</span>  Projeto.putVoxel(39, 43, 50);</div>
+<div class="line"><span class="lineno">  173</span>  Projeto.putVoxel(40, 43, 50);</div>
+<div class="line"><span class="lineno">  174</span>  Projeto.putVoxel(41, 43, 50);</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>  <span class="comment">//Linha 6</span></div>
+<div class="line"><span class="lineno">  177</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  178</span>  Projeto.putVoxel(36, 44, 50);</div>
+<div class="line"><span class="lineno">  179</span>  Projeto.putVoxel(44, 44, 50);</div>
+<div class="line"><span class="lineno">  180</span>  Projeto.setColor(0.694, 0.509, 0.164, 1); <span class="comment">//Marrom</span></div>
+<div class="line"><span class="lineno">  181</span>  Projeto.putVoxel(37, 44, 50);</div>
+<div class="line"><span class="lineno">  182</span>  Projeto.putVoxel(43, 44, 50);</div>
+<div class="line"><span class="lineno">  183</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  184</span>  Projeto.putVoxel(38, 44, 50);</div>
+<div class="line"><span class="lineno">  185</span>  Projeto.putVoxel(42, 44, 50);</div>
+<div class="line"><span class="lineno">  186</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  187</span>  Projeto.putVoxel(39, 44, 50);</div>
+<div class="line"><span class="lineno">  188</span>  Projeto.putVoxel(40, 44, 50);</div>
+<div class="line"><span class="lineno">  189</span>  Projeto.putVoxel(41, 44, 50);</div>
+<div class="line"><span class="lineno">  190</span> </div>
+<div class="line"><span class="lineno">  191</span>  <span class="comment">//Linha 7</span></div>
+<div class="line"><span class="lineno">  192</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  193</span>  Projeto.putVoxel(33, 45, 50);</div>
+<div class="line"><span class="lineno">  194</span>  Projeto.putVoxel(34, 45, 50);</div>
+<div class="line"><span class="lineno">  195</span>  Projeto.putVoxel(35, 45, 50);</div>
+<div class="line"><span class="lineno">  196</span>  Projeto.putVoxel(36, 45, 50);</div>
+<div class="line"><span class="lineno">  197</span>  Projeto.putVoxel(37, 45, 50);</div>
+<div class="line"><span class="lineno">  198</span>  Projeto.putVoxel(43, 45, 50);</div>
+<div class="line"><span class="lineno">  199</span>  Projeto.putVoxel(44, 45, 50);</div>
+<div class="line"><span class="lineno">  200</span>  Projeto.putVoxel(45, 45, 50);</div>
+<div class="line"><span class="lineno">  201</span>  Projeto.putVoxel(46, 45, 50);</div>
+<div class="line"><span class="lineno">  202</span>  Projeto.putVoxel(47, 45, 50);</div>
+<div class="line"><span class="lineno">  203</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  204</span>  Projeto.putVoxel(38, 45, 50);</div>
+<div class="line"><span class="lineno">  205</span>  Projeto.putVoxel(39, 45, 50);</div>
+<div class="line"><span class="lineno">  206</span>  Projeto.putVoxel(40, 45, 50);</div>
+<div class="line"><span class="lineno">  207</span>  Projeto.putVoxel(41, 45, 50);</div>
+<div class="line"><span class="lineno">  208</span>  Projeto.putVoxel(42, 45, 50);</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>  <span class="comment">//Linha 8</span></div>
+<div class="line"><span class="lineno">  211</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  212</span>  Projeto.putVoxel(32, 46, 50);</div>
+<div class="line"><span class="lineno">  213</span>  Projeto.putVoxel(36, 46, 50);</div>
+<div class="line"><span class="lineno">  214</span>  Projeto.putVoxel(37, 46, 50);</div>
+<div class="line"><span class="lineno">  215</span>  Projeto.putVoxel(43, 46, 50);</div>
+<div class="line"><span class="lineno">  216</span>  Projeto.putVoxel(44, 46, 50);</div>
+<div class="line"><span class="lineno">  217</span>  Projeto.putVoxel(48, 46, 50);</div>
+<div class="line"><span class="lineno">  218</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  219</span>  Projeto.putVoxel(38, 46, 50);</div>
+<div class="line"><span class="lineno">  220</span>  Projeto.putVoxel(39, 46, 50);</div>
+<div class="line"><span class="lineno">  221</span>  Projeto.putVoxel(40, 46, 50);</div>
+<div class="line"><span class="lineno">  222</span>  Projeto.putVoxel(41, 46, 50);</div>
+<div class="line"><span class="lineno">  223</span>  Projeto.putVoxel(42, 46, 50);</div>
+<div class="line"><span class="lineno">  224</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  225</span>  Projeto.putVoxel(33, 46, 50);</div>
+<div class="line"><span class="lineno">  226</span>  Projeto.putVoxel(34, 46, 50);</div>
+<div class="line"><span class="lineno">  227</span>  Projeto.putVoxel(35, 46, 50);</div>
+<div class="line"><span class="lineno">  228</span>  Projeto.putVoxel(45, 46, 50);</div>
+<div class="line"><span class="lineno">  229</span>  Projeto.putVoxel(46, 46, 50);</div>
+<div class="line"><span class="lineno">  230</span>  Projeto.putVoxel(47, 46, 50);</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>  <span class="comment">//Linha 9</span></div>
+<div class="line"><span class="lineno">  233</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  234</span>  Projeto.putVoxel(32, 47, 50);</div>
+<div class="line"><span class="lineno">  235</span>  Projeto.putVoxel(36, 47, 50);</div>
+<div class="line"><span class="lineno">  236</span>  Projeto.putVoxel(37, 47, 50);</div>
+<div class="line"><span class="lineno">  237</span>  Projeto.putVoxel(43, 47, 50);</div>
+<div class="line"><span class="lineno">  238</span>  Projeto.putVoxel(44, 47, 50);</div>
+<div class="line"><span class="lineno">  239</span>  Projeto.putVoxel(48, 47, 50);</div>
+<div class="line"><span class="lineno">  240</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  241</span>  Projeto.putVoxel(33, 47, 50);</div>
+<div class="line"><span class="lineno">  242</span>  Projeto.putVoxel(34, 47, 50);</div>
+<div class="line"><span class="lineno">  243</span>  Projeto.putVoxel(35, 47, 50);</div>
+<div class="line"><span class="lineno">  244</span>  Projeto.putVoxel(45, 47, 50);</div>
+<div class="line"><span class="lineno">  245</span>  Projeto.putVoxel(46, 47, 50);</div>
+<div class="line"><span class="lineno">  246</span>  Projeto.putVoxel(47, 47, 50);</div>
+<div class="line"><span class="lineno">  247</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  248</span>  Projeto.putVoxel(39, 47, 50);</div>
+<div class="line"><span class="lineno">  249</span>  Projeto.putVoxel(42, 47, 50);</div>
+<div class="line"><span class="lineno">  250</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  251</span>  Projeto.putVoxel(38, 47, 50);</div>
+<div class="line"><span class="lineno">  252</span>  Projeto.putVoxel(40, 47, 50);</div>
+<div class="line"><span class="lineno">  253</span>  Projeto.putVoxel(41, 47, 50);</div>
+<div class="line"><span class="lineno">  254</span> </div>
+<div class="line"><span class="lineno">  255</span>  <span class="comment">//Linha 10</span></div>
+<div class="line"><span class="lineno">  256</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  257</span>  Projeto.putVoxel(31, 48, 50);</div>
+<div class="line"><span class="lineno">  258</span>  Projeto.putVoxel(35, 48, 50);</div>
+<div class="line"><span class="lineno">  259</span>  Projeto.putVoxel(36, 48, 50);</div>
+<div class="line"><span class="lineno">  260</span>  Projeto.putVoxel(44, 48, 50);</div>
+<div class="line"><span class="lineno">  261</span>  Projeto.putVoxel(45, 48, 50);</div>
+<div class="line"><span class="lineno">  262</span>  Projeto.putVoxel(49, 48, 50);</div>
+<div class="line"><span class="lineno">  263</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  264</span>  Projeto.putVoxel(32, 48, 50);</div>
+<div class="line"><span class="lineno">  265</span>  Projeto.putVoxel(34, 48, 50);</div>
+<div class="line"><span class="lineno">  266</span>  Projeto.putVoxel(48, 48, 50);</div>
+<div class="line"><span class="lineno">  267</span>  Projeto.putVoxel(46, 48, 50);</div>
+<div class="line"><span class="lineno">  268</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  269</span>  Projeto.putVoxel(38, 48, 50);</div>
+<div class="line"><span class="lineno">  270</span>  Projeto.putVoxel(40, 48, 50);</div>
+<div class="line"><span class="lineno">  271</span>  Projeto.putVoxel(43, 48, 50);</div>
+<div class="line"><span class="lineno">  272</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  273</span>  Projeto.putVoxel(37, 48, 50);</div>
+<div class="line"><span class="lineno">  274</span>  Projeto.putVoxel(39, 48, 50);</div>
+<div class="line"><span class="lineno">  275</span>  Projeto.putVoxel(41, 48, 50);</div>
+<div class="line"><span class="lineno">  276</span>  Projeto.putVoxel(42, 48, 50);</div>
+<div class="line"><span class="lineno">  277</span>  Projeto.setColor(0.450, 0.450, 0.450, 0.78); <span class="comment">//Cinza</span></div>
+<div class="line"><span class="lineno">  278</span>  Projeto.putVoxel(33, 48, 50);</div>
+<div class="line"><span class="lineno">  279</span>  Projeto.putVoxel(47, 48, 50);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>  <span class="comment">//Linha 11</span></div>
+<div class="line"><span class="lineno">  282</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  283</span>  Projeto.putVoxel(32, 49, 50);</div>
+<div class="line"><span class="lineno">  284</span>  Projeto.putVoxel(36, 49, 50);</div>
+<div class="line"><span class="lineno">  285</span>  Projeto.putVoxel(44, 49, 50);</div>
+<div class="line"><span class="lineno">  286</span>  Projeto.putVoxel(48, 49, 50);</div>
+<div class="line"><span class="lineno">  287</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  288</span>  Projeto.putVoxel(33, 49, 50);</div>
+<div class="line"><span class="lineno">  289</span>  Projeto.putVoxel(34, 49, 50);</div>
+<div class="line"><span class="lineno">  290</span>  Projeto.putVoxel(47, 49, 50);</div>
+<div class="line"><span class="lineno">  291</span>  Projeto.putVoxel(46, 49, 50);</div>
+<div class="line"><span class="lineno">  292</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  293</span>  Projeto.putVoxel(35, 49, 50);</div>
+<div class="line"><span class="lineno">  294</span>  Projeto.putVoxel(37, 49, 50);</div>
+<div class="line"><span class="lineno">  295</span>  Projeto.putVoxel(42, 49, 50);</div>
+<div class="line"><span class="lineno">  296</span>  Projeto.putVoxel(45, 49, 50);</div>
+<div class="line"><span class="lineno">  297</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  298</span>  Projeto.putVoxel(38, 49, 50);</div>
+<div class="line"><span class="lineno">  299</span>  Projeto.putVoxel(39, 49, 50);</div>
+<div class="line"><span class="lineno">  300</span>  Projeto.putVoxel(40, 49, 50);</div>
+<div class="line"><span class="lineno">  301</span>  Projeto.putVoxel(41, 49, 50);</div>
+<div class="line"><span class="lineno">  302</span>  Projeto.putVoxel(43, 49, 50);</div>
+<div class="line"><span class="lineno">  303</span> </div>
+<div class="line"><span class="lineno">  304</span>  <span class="comment">//Linha 12</span></div>
+<div class="line"><span class="lineno">  305</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  306</span>  Projeto.putVoxel(33, 50, 50);</div>
+<div class="line"><span class="lineno">  307</span>  Projeto.putVoxel(39, 50, 50);</div>
+<div class="line"><span class="lineno">  308</span>  Projeto.putVoxel(40, 50, 50);</div>
+<div class="line"><span class="lineno">  309</span>  Projeto.putVoxel(41, 50, 50);</div>
+<div class="line"><span class="lineno">  310</span>  Projeto.putVoxel(42, 50, 50);</div>
+<div class="line"><span class="lineno">  311</span>  Projeto.putVoxel(47, 50, 50);</div>
+<div class="line"><span class="lineno">  312</span>  Projeto.setColor(1,1,0, 0.5); <span class="comment">//Amarelo</span></div>
+<div class="line"><span class="lineno">  313</span>  Projeto.putVoxel(34, 50, 50);</div>
+<div class="line"><span class="lineno">  314</span>  Projeto.putVoxel(38, 50, 50);</div>
+<div class="line"><span class="lineno">  315</span>  Projeto.putVoxel(46, 50, 50);</div>
+<div class="line"><span class="lineno">  316</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  317</span>  Projeto.putVoxel(35, 50, 50);</div>
+<div class="line"><span class="lineno">  318</span>  Projeto.putVoxel(36, 50, 50);</div>
+<div class="line"><span class="lineno">  319</span>  Projeto.putVoxel(37, 50, 50);</div>
+<div class="line"><span class="lineno">  320</span>  Projeto.putVoxel(43, 50, 50);</div>
+<div class="line"><span class="lineno">  321</span>  Projeto.putVoxel(44, 50, 50);</div>
+<div class="line"><span class="lineno">  322</span>  Projeto.putVoxel(45, 50, 50);</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>  <span class="comment">//Linha 13</span></div>
+<div class="line"><span class="lineno">  325</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  326</span>  Projeto.putVoxel(30, 51, 50);</div>
+<div class="line"><span class="lineno">  327</span>  Projeto.putVoxel(34, 51, 50);</div>
+<div class="line"><span class="lineno">  328</span>  Projeto.putVoxel(38, 51, 50);</div>
+<div class="line"><span class="lineno">  329</span>  Projeto.putVoxel(43, 51, 50);</div>
+<div class="line"><span class="lineno">  330</span>  Projeto.putVoxel(46, 51, 50);</div>
+<div class="line"><span class="lineno">  331</span>  Projeto.setColor(0, 0, 0.619, 1); <span class="comment">//Azul Escuro</span></div>
+<div class="line"><span class="lineno">  332</span>  Projeto.putVoxel(35, 51, 50);</div>
+<div class="line"><span class="lineno">  333</span>  Projeto.putVoxel(36, 51, 50);</div>
+<div class="line"><span class="lineno">  334</span>  Projeto.putVoxel(37, 51, 50);</div>
+<div class="line"><span class="lineno">  335</span>  Projeto.putVoxel(44, 51, 50);</div>
+<div class="line"><span class="lineno">  336</span>  Projeto.putVoxel(45, 51, 50);</div>
+<div class="line"><span class="lineno">  337</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  338</span>  Projeto.putVoxel(39, 51, 50);</div>
+<div class="line"><span class="lineno">  339</span>  Projeto.putVoxel(40, 51, 50);</div>
+<div class="line"><span class="lineno">  340</span>  Projeto.putVoxel(41, 51, 50);</div>
+<div class="line"><span class="lineno">  341</span>  Projeto.putVoxel(42, 51, 50);</div>
+<div class="line"><span class="lineno">  342</span> </div>
+<div class="line"><span class="lineno">  343</span>  <span class="comment">//Linha 14</span></div>
+<div class="line"><span class="lineno">  344</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  345</span>  Projeto.putVoxel(29, 52, 50);</div>
+<div class="line"><span class="lineno">  346</span>  Projeto.putVoxel(31, 52, 50);</div>
+<div class="line"><span class="lineno">  347</span>  Projeto.putVoxel(35, 52, 50);</div>
+<div class="line"><span class="lineno">  348</span>  Projeto.putVoxel(36, 52, 50);</div>
+<div class="line"><span class="lineno">  349</span>  Projeto.putVoxel(37, 52, 50);</div>
+<div class="line"><span class="lineno">  350</span>  Projeto.putVoxel(44, 52, 50);</div>
+<div class="line"><span class="lineno">  351</span>  Projeto.putVoxel(45, 52, 50);</div>
+<div class="line"><span class="lineno">  352</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  353</span>  Projeto.putVoxel(30, 52, 50);</div>
+<div class="line"><span class="lineno">  354</span>  Projeto.setColor(0.917, 0.388, 0.756, 1); <span class="comment">//Rosa</span></div>
+<div class="line"><span class="lineno">  355</span>  Projeto.putVoxel(40, 52, 50);</div>
+<div class="line"><span class="lineno">  356</span>  Projeto.putVoxel(41, 52, 50);</div>
+<div class="line"><span class="lineno">  357</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  358</span>  Projeto.putVoxel(38, 52, 50);</div>
+<div class="line"><span class="lineno">  359</span>  Projeto.putVoxel(39, 52, 50);</div>
+<div class="line"><span class="lineno">  360</span>  Projeto.putVoxel(42, 52, 50);</div>
+<div class="line"><span class="lineno">  361</span>  Projeto.putVoxel(43, 52, 50);</div>
+<div class="line"><span class="lineno">  362</span> </div>
+<div class="line"><span class="lineno">  363</span>  <span class="comment">//Linha 15</span></div>
+<div class="line"><span class="lineno">  364</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  365</span>  Projeto.putVoxel(28, 53, 50);</div>
+<div class="line"><span class="lineno">  366</span>  Projeto.putVoxel(29, 53, 50);</div>
+<div class="line"><span class="lineno">  367</span>  Projeto.putVoxel(30, 53, 50);</div>
+<div class="line"><span class="lineno">  368</span>  Projeto.putVoxel(32, 53, 50);</div>
+<div class="line"><span class="lineno">  369</span>  Projeto.putVoxel(36, 53, 50);</div>
+<div class="line"><span class="lineno">  370</span>  Projeto.putVoxel(45, 53, 50);</div>
+<div class="line"><span class="lineno">  371</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  372</span>  Projeto.putVoxel(31, 53, 50);</div>
+<div class="line"><span class="lineno">  373</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  374</span>  Projeto.putVoxel(37, 53, 50);</div>
+<div class="line"><span class="lineno">  375</span>  Projeto.putVoxel(38, 53, 50);</div>
+<div class="line"><span class="lineno">  376</span>  Projeto.putVoxel(39, 53, 50);</div>
+<div class="line"><span class="lineno">  377</span>  Projeto.putVoxel(42, 53, 50);</div>
+<div class="line"><span class="lineno">  378</span>  Projeto.putVoxel(44, 53, 50);</div>
+<div class="line"><span class="lineno">  379</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  380</span>  Projeto.putVoxel(40, 53, 50);</div>
+<div class="line"><span class="lineno">  381</span>  Projeto.putVoxel(41, 53, 50);</div>
+<div class="line"><span class="lineno">  382</span>  Projeto.putVoxel(43, 53, 50);</div>
+<div class="line"><span class="lineno">  383</span> </div>
+<div class="line"><span class="lineno">  384</span>  <span class="comment">//Linha 16</span></div>
+<div class="line"><span class="lineno">  385</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  386</span>  Projeto.putVoxel(27, 54, 50);</div>
+<div class="line"><span class="lineno">  387</span>  Projeto.putVoxel(30, 54, 50);</div>
+<div class="line"><span class="lineno">  388</span>  Projeto.putVoxel(31, 54, 50);</div>
+<div class="line"><span class="lineno">  389</span>  Projeto.putVoxel(33, 54, 50);</div>
+<div class="line"><span class="lineno">  390</span>  Projeto.putVoxel(35, 54, 50);</div>
+<div class="line"><span class="lineno">  391</span>  Projeto.putVoxel(40, 54, 50);</div>
+<div class="line"><span class="lineno">  392</span>  Projeto.putVoxel(41, 54, 50);</div>
+<div class="line"><span class="lineno">  393</span>  Projeto.putVoxel(43, 54, 50);</div>
+<div class="line"><span class="lineno">  394</span>  Projeto.putVoxel(45, 54, 50);</div>
+<div class="line"><span class="lineno">  395</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  396</span>  Projeto.putVoxel(28, 54, 50);</div>
+<div class="line"><span class="lineno">  397</span>  Projeto.putVoxel(29, 54, 50);</div>
+<div class="line"><span class="lineno">  398</span>  Projeto.putVoxel(32, 54, 50);</div>
+<div class="line"><span class="lineno">  399</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  400</span>  Projeto.putVoxel(36, 54, 50);</div>
+<div class="line"><span class="lineno">  401</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  402</span>  Projeto.putVoxel(37, 54, 50);</div>
+<div class="line"><span class="lineno">  403</span>  Projeto.putVoxel(38, 54, 50);</div>
+<div class="line"><span class="lineno">  404</span>  Projeto.putVoxel(42, 54, 50);</div>
+<div class="line"><span class="lineno">  405</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  406</span>  Projeto.putVoxel(39, 54, 50);</div>
+<div class="line"><span class="lineno">  407</span>  Projeto.putVoxel(44, 54, 50);</div>
+<div class="line"><span class="lineno">  408</span> </div>
+<div class="line"><span class="lineno">  409</span>  <span class="comment">//Linha 17</span></div>
+<div class="line"><span class="lineno">  410</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  411</span>  Projeto.putVoxel(28, 55, 50);</div>
+<div class="line"><span class="lineno">  412</span>  Projeto.putVoxel(29, 55, 50);</div>
+<div class="line"><span class="lineno">  413</span>  Projeto.putVoxel(31, 55, 50);</div>
+<div class="line"><span class="lineno">  414</span>  Projeto.putVoxel(32, 55, 50);</div>
+<div class="line"><span class="lineno">  415</span>  Projeto.putVoxel(34, 55, 50);</div>
+<div class="line"><span class="lineno">  416</span>  Projeto.putVoxel(40, 55, 50);</div>
+<div class="line"><span class="lineno">  417</span>  Projeto.putVoxel(41, 55, 50);</div>
+<div class="line"><span class="lineno">  418</span>  Projeto.putVoxel(43, 55, 50);</div>
+<div class="line"><span class="lineno">  419</span>  Projeto.putVoxel(45, 55, 50);</div>
+<div class="line"><span class="lineno">  420</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  421</span>  Projeto.putVoxel(30, 55, 50);</div>
+<div class="line"><span class="lineno">  422</span>  Projeto.putVoxel(33, 55, 50);</div>
+<div class="line"><span class="lineno">  423</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  424</span>  Projeto.putVoxel(35, 55, 50);</div>
+<div class="line"><span class="lineno">  425</span>  Projeto.putVoxel(36, 55, 50);</div>
+<div class="line"><span class="lineno">  426</span>  Projeto.putVoxel(38, 55, 50);</div>
+<div class="line"><span class="lineno">  427</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  428</span>  Projeto.putVoxel(37, 55, 50);</div>
+<div class="line"><span class="lineno">  429</span>  Projeto.putVoxel(42, 55, 50);</div>
+<div class="line"><span class="lineno">  430</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  431</span>  Projeto.putVoxel(39, 55, 50);</div>
+<div class="line"><span class="lineno">  432</span>  Projeto.putVoxel(44, 55, 50);</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>  <span class="comment">//Linha 18</span></div>
+<div class="line"><span class="lineno">  435</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  436</span>  Projeto.putVoxel(30, 56, 50);</div>
+<div class="line"><span class="lineno">  437</span>  Projeto.putVoxel(32, 56, 50);</div>
+<div class="line"><span class="lineno">  438</span>  Projeto.putVoxel(34, 56, 50);</div>
+<div class="line"><span class="lineno">  439</span>  Projeto.putVoxel(45, 56, 50);</div>
+<div class="line"><span class="lineno">  440</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  441</span>  Projeto.putVoxel(31, 56, 50);</div>
+<div class="line"><span class="lineno">  442</span>  Projeto.putVoxel(33, 56, 50);</div>
+<div class="line"><span class="lineno">  443</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  444</span>  Projeto.putVoxel(35, 56, 50);</div>
+<div class="line"><span class="lineno">  445</span>  Projeto.putVoxel(36, 56, 50);</div>
+<div class="line"><span class="lineno">  446</span>  Projeto.putVoxel(37, 56, 50);</div>
+<div class="line"><span class="lineno">  447</span>  Projeto.putVoxel(38, 56, 50);</div>
+<div class="line"><span class="lineno">  448</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  449</span>  Projeto.putVoxel(39, 56, 50);</div>
+<div class="line"><span class="lineno">  450</span>  Projeto.putVoxel(42, 56, 50);</div>
+<div class="line"><span class="lineno">  451</span>  Projeto.putVoxel(44, 56, 50);</div>
+<div class="line"><span class="lineno">  452</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  453</span>  Projeto.putVoxel(40, 56, 50);</div>
+<div class="line"><span class="lineno">  454</span>  Projeto.putVoxel(41, 56, 50);</div>
+<div class="line"><span class="lineno">  455</span>  Projeto.putVoxel(43, 56, 50);</div>
+<div class="line"><span class="lineno">  456</span> </div>
+<div class="line"><span class="lineno">  457</span>  <span class="comment">//Linha 19</span></div>
+<div class="line"><span class="lineno">  458</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  459</span>  Projeto.putVoxel(31, 57, 50);</div>
+<div class="line"><span class="lineno">  460</span>  Projeto.putVoxel(33, 57, 50);</div>
+<div class="line"><span class="lineno">  461</span>  Projeto.putVoxel(35, 57, 50);</div>
+<div class="line"><span class="lineno">  462</span>  Projeto.putVoxel(45, 57, 50);</div>
+<div class="line"><span class="lineno">  463</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  464</span>  Projeto.putVoxel(32, 57, 50);</div>
+<div class="line"><span class="lineno">  465</span>  Projeto.putVoxel(34, 57, 50);</div>
+<div class="line"><span class="lineno">  466</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  467</span>  Projeto.putVoxel(36, 57, 50);</div>
+<div class="line"><span class="lineno">  468</span>  Projeto.putVoxel(37, 57, 50);</div>
+<div class="line"><span class="lineno">  469</span>  Projeto.putVoxel(38, 57, 50);</div>
+<div class="line"><span class="lineno">  470</span>  Projeto.putVoxel(39, 57, 50);</div>
+<div class="line"><span class="lineno">  471</span>  Projeto.putVoxel(43, 57, 50);</div>
+<div class="line"><span class="lineno">  472</span>  Projeto.putVoxel(44, 57, 50);</div>
+<div class="line"><span class="lineno">  473</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  474</span>  Projeto.putVoxel(40, 57, 50);</div>
+<div class="line"><span class="lineno">  475</span>  Projeto.putVoxel(41, 57, 50);</div>
+<div class="line"><span class="lineno">  476</span>  Projeto.putVoxel(42, 57, 50);</div>
+<div class="line"><span class="lineno">  477</span> </div>
+<div class="line"><span class="lineno">  478</span>  <span class="comment">//Linha 20</span></div>
+<div class="line"><span class="lineno">  479</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  480</span>  Projeto.putVoxel(32, 58, 50);</div>
+<div class="line"><span class="lineno">  481</span>  Projeto.putVoxel(33, 58, 50);</div>
+<div class="line"><span class="lineno">  482</span>  Projeto.putVoxel(34, 58, 50);</div>
+<div class="line"><span class="lineno">  483</span>  Projeto.putVoxel(45, 58, 50);</div>
+<div class="line"><span class="lineno">  484</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  485</span>  Projeto.putVoxel(36, 58, 50);</div>
+<div class="line"><span class="lineno">  486</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  487</span>  Projeto.putVoxel(37, 58, 50);</div>
+<div class="line"><span class="lineno">  488</span>  Projeto.putVoxel(38, 58, 50);</div>
+<div class="line"><span class="lineno">  489</span>  Projeto.putVoxel(39, 58, 50);</div>
+<div class="line"><span class="lineno">  490</span>  Projeto.putVoxel(40, 58, 50);</div>
+<div class="line"><span class="lineno">  491</span>  Projeto.putVoxel(42, 58, 50);</div>
+<div class="line"><span class="lineno">  492</span>  Projeto.putVoxel(43, 58, 50);</div>
+<div class="line"><span class="lineno">  493</span>  Projeto.putVoxel(44, 58, 50);</div>
+<div class="line"><span class="lineno">  494</span>  Projeto.setColor(0.984, 0.682, 0.435, 0.89); <span class="comment">//Pele</span></div>
+<div class="line"><span class="lineno">  495</span>  Projeto.putVoxel(41, 58, 50);</div>
+<div class="line"><span class="lineno">  496</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  497</span>  Projeto.putVoxel(35, 58, 50);</div>
+<div class="line"><span class="lineno">  498</span> </div>
+<div class="line"><span class="lineno">  499</span>  <span class="comment">//Linha 21</span></div>
+<div class="line"><span class="lineno">  500</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  501</span>  Projeto.putVoxel(34, 59, 50);</div>
+<div class="line"><span class="lineno">  502</span>  Projeto.putVoxel(44, 59, 50);</div>
+<div class="line"><span class="lineno">  503</span>  Projeto.putVoxel(46, 59, 50);</div>
+<div class="line"><span class="lineno">  504</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  505</span>  Projeto.putVoxel(37, 59, 50);</div>
+<div class="line"><span class="lineno">  506</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  507</span>  Projeto.putVoxel(38, 59, 50);</div>
+<div class="line"><span class="lineno">  508</span>  Projeto.putVoxel(39, 59, 50);</div>
+<div class="line"><span class="lineno">  509</span>  Projeto.putVoxel(40, 59, 50);</div>
+<div class="line"><span class="lineno">  510</span>  Projeto.putVoxel(41, 59, 50);</div>
+<div class="line"><span class="lineno">  511</span>  Projeto.putVoxel(42, 59, 50);</div>
+<div class="line"><span class="lineno">  512</span>  Projeto.putVoxel(43, 59, 50);</div>
+<div class="line"><span class="lineno">  513</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  514</span>  Projeto.putVoxel(35, 59, 50);</div>
+<div class="line"><span class="lineno">  515</span>  Projeto.putVoxel(36, 59, 50);</div>
+<div class="line"><span class="lineno">  516</span>  Projeto.putVoxel(45, 59, 50);</div>
+<div class="line"><span class="lineno">  517</span> </div>
+<div class="line"><span class="lineno">  518</span>  <span class="comment">//Linha 22</span></div>
+<div class="line"><span class="lineno">  519</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  520</span>  Projeto.putVoxel(34, 60, 50);</div>
+<div class="line"><span class="lineno">  521</span>  Projeto.putVoxel(43, 60, 50);</div>
+<div class="line"><span class="lineno">  522</span>  Projeto.putVoxel(46, 60, 50);</div>
+<div class="line"><span class="lineno">  523</span>  Projeto.setColor(0.603, 0.729, 0.854, 0.89); <span class="comment">//Azul Claro</span></div>
+<div class="line"><span class="lineno">  524</span>  Projeto.putVoxel(38, 60, 50);</div>
+<div class="line"><span class="lineno">  525</span>  Projeto.setColor(0.164, 0.105, 0, 1); <span class="comment">//Marrom Escuro</span></div>
+<div class="line"><span class="lineno">  526</span>  Projeto.putVoxel(39, 60, 50);</div>
+<div class="line"><span class="lineno">  527</span>  Projeto.putVoxel(40, 60, 50);</div>
+<div class="line"><span class="lineno">  528</span>  Projeto.putVoxel(41, 60, 50);</div>
+<div class="line"><span class="lineno">  529</span>  Projeto.putVoxel(42, 60, 50);</div>
+<div class="line"><span class="lineno">  530</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  531</span>  Projeto.putVoxel(35, 60, 50);</div>
+<div class="line"><span class="lineno">  532</span>  Projeto.putVoxel(36, 60, 50);</div>
+<div class="line"><span class="lineno">  533</span>  Projeto.putVoxel(37, 60, 50);</div>
+<div class="line"><span class="lineno">  534</span>  Projeto.putVoxel(44, 60, 50);</div>
+<div class="line"><span class="lineno">  535</span>  Projeto.putVoxel(45, 60, 50);</div>
+<div class="line"><span class="lineno">  536</span> </div>
+<div class="line"><span class="lineno">  537</span>  <span class="comment">//Linha 23</span></div>
+<div class="line"><span class="lineno">  538</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  539</span>  Projeto.putVoxel(35, 61, 50);</div>
+<div class="line"><span class="lineno">  540</span>  Projeto.putVoxel(38, 61, 50);</div>
+<div class="line"><span class="lineno">  541</span>  Projeto.putVoxel(39, 61, 50);</div>
+<div class="line"><span class="lineno">  542</span>  Projeto.putVoxel(40, 61, 50);</div>
+<div class="line"><span class="lineno">  543</span>  Projeto.putVoxel(41, 61, 50);</div>
+<div class="line"><span class="lineno">  544</span>  Projeto.putVoxel(42, 61, 50);</div>
+<div class="line"><span class="lineno">  545</span>  Projeto.putVoxel(45, 61, 50);</div>
+<div class="line"><span class="lineno">  546</span>  Projeto.setColor(1, 1, 1, 1); <span class="comment">//Branco</span></div>
+<div class="line"><span class="lineno">  547</span>  Projeto.putVoxel(36, 61, 50);</div>
+<div class="line"><span class="lineno">  548</span>  Projeto.putVoxel(37, 61, 50);</div>
+<div class="line"><span class="lineno">  549</span>  Projeto.putVoxel(43, 61, 50);</div>
+<div class="line"><span class="lineno">  550</span>  Projeto.putVoxel(44, 61, 50);</div>
+<div class="line"><span class="lineno">  551</span> </div>
+<div class="line"><span class="lineno">  552</span>  <span class="comment">//Linha 24</span></div>
+<div class="line"><span class="lineno">  553</span>  Projeto.setColor(0, 0, 0, 1); <span class="comment">//Preto</span></div>
+<div class="line"><span class="lineno">  554</span>  Projeto.putVoxel(36, 62, 50);</div>
+<div class="line"><span class="lineno">  555</span>  Projeto.putVoxel(37, 62, 50);</div>
+<div class="line"><span class="lineno">  556</span>  Projeto.putVoxel(43, 62, 50);</div>
+<div class="line"><span class="lineno">  557</span>  Projeto.putVoxel(44, 62, 50);</div>
+<div class="line"><span class="lineno">  558</span>  </div>
+<div class="line"><span class="lineno">  559</span> </div>
+<div class="line"><span class="lineno">  560</span>  </div>
+<div class="line"><span class="lineno">  561</span>  Projeto.writeOFF((<span class="keywordtype">char</span>*)<span class="stringliteral">&quot;PiaoChunLi.off&quot;</span>);</div>
+<div class="line"><span class="lineno">  562</span>}</div>
+<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdef"><b>Definição</b> Sculptor.h:5</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>
